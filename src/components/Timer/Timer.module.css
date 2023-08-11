@@ -1,0 +1,21 @@
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: inherit;
+  border: 1px solid transparent;
+}
+.buttons button:hover {
+  background-color: rgb(51, 56, 43);
+  border: 1px solid #fff;
+  color: #fff;
+}
