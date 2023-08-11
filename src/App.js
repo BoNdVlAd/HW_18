@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Timer from './components/Timer';
@@ -21,14 +20,12 @@ class App extends React.Component {
     this.setState({
       time: value,
     });
-    console.log(this.state.time);
   }
 
   handleInput2(value) {
     this.setState({
       step: value,
     });
-    console.log(this.state.time);
   }
 
   setTimer() {
