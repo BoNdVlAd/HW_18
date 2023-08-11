@@ -20,8 +20,6 @@ class Timer extends React.Component {
   }
 
   tick() {
-    console.log(this.state);
-    console.log(this.props.time);
     if (this.state.timeLeft === 0) {
       clearInterval(this.Interval);
       return;
@@ -31,7 +29,6 @@ class Timer extends React.Component {
     });
   }
   componentDidMount() {
-    console.log(this.autostart);
     if (this.state.autostart) {
       this.startTimer();
     }
